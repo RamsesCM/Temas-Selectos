@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*CSS Document*/
+body {
+    background-color: #A0CAEC;
+}
+
+.logoPharma {
+    width: 200px;
+}
+
+#listaDesordenada {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16pt;
+    list-style: none;
+    color: navy;
+    float: right;
+}
+
+.lista {
+    display:inline;
+    text-align: right;
+    margin: 10px;
+}
+
+.principal {
+    width: 100%;
+    height: auto;
+}
+
+a:hover {
+    color: violet;
+    background-color: beige;
+}
+
+a:active {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+    color: #696969;
+}
+
+.box{
+    position: block;
+    Background-color:darkblue;
+    text-align: center;
+}
+
+h3{
+    color: white;
+}
+
+.redes{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 100%;
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*CSS Document*/
+body {
+    background-color: #A0CAEC;
+}
+
+.logoPharma {
+    width: 200px;
+}
+
+.listaDesordenada {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16pt;
+    list-style: none;
+    color: navy;
+    float: right;
+}
+
+li {
+    display:inline;
+    text-align: right;
+    margin: 10px;
+}
+
+.principal{
+    width: 100%;
+    height: auto;
+}

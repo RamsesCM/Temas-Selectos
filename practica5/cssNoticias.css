@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+/*CSS Document*/
+body {
+    background-color: #A0CAEC;
+}
+
+.logoPharma {
+    width: 200px;
+}
+
+#listaDesordenada {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16pt;
+    list-style: none;
+    color: navy;
+    float: right;
+}
+
+.lista {
+    display:inline;
+    text-align: right;
+    margin: 10px;
+}
+
+.principal {
+    width: auto;
+    height: 600px;
+    background-image: url(images/descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto_boxdos {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    text-align: justify;
+    margin: auto;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.texto_boxprincipal {
+    font-size: 20pt;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer_contacto {
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 5px;
+}
+
+.imagenes {
+    display: inline;
+    text-align: left;
+    width: 230px;
+    justify-content: left;
+    align-items: left;
+    margin: auto;
+    padding: 30px;
+}
+
+.boxprincipal {
+    display: flex;
+    Background-color: brown;
+    text-align: center;
+}
+
+.box {
+    position: block;
+    Background-color:darkblue;
+    text-align: center;
+}
+
+.boxdos {
+    display: flex;
+    Background-color:rgb(42, 168, 158);
+    text-align: center;
+}
+
+.boxtres {
+    position: block;
+    Background-color:rgb(42, 168, 158);
+    text-align: center;
+}
+
+.boxcuatro {
+    display: flex;
+    Background-color:#EFA503;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+.redes {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 100%;
+    margin: auto;
+}

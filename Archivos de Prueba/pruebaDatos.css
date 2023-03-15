@@ -1,0 +1,13 @@
+.box{
+    margin: 0 auto;
+    width: 200px;
+    background-color:rgb(174, 174, 253);
+}
+
+.box2{
+    Position:absolute;
+    Width:200px;
+    Left:50%;
+    Margin-left: -100px;
+    Background-color:green;
+}
