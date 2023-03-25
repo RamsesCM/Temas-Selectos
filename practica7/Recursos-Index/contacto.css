@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+body {
+    background-image: url(images/pexels-johnmark-smith-272337.jpg);
+    background-size: cover;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 20px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: red;
+}
+
+.imagen-menu {
+    padding-top: 7px;
+    height: 50px;
+    width: auto;
+}
+
+.contenido-fondo {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    opacity: .95;
+    background-color: #a5a3a3;
+    position: relative;
+    text-align: center;
+}
+
+.encabezado {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.about-me {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20pt;
+    text-align: justify;
+    margin: auto;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.imagen-contacto {
+    height: 300px;
+    width: auto;
+    border: solid 5px black;
+}
+
+.footer_contacto {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+span {
+    font-weight: bold;
+}

@@ -1,0 +1,96 @@
+
+
+@font-face {
+    font-family: 'Basston Script';
+    src: url(fonts/Basston\ Script.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Arial Rounded MT Bold";
+    src: url(fonts/arlrdbd.ttf) format('truetype');
+}
+
+body {
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+.box {
+    width: 100%;
+    Background-color:#1F5676;
+    text-align: center;
+    margin: auto;
+}
+
+.texto_box {
+    padding-top: 10px;
+    font-family: Bernard MT Condensed;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.mariscos_tomas {
+    width: 400px;
+    height: auto;
+}
+
+.logo_completo {
+    padding-top: 2%;
+    width: 400px;
+    height: auto;
+}
+
+.box_dos {
+    width: 600px;
+    Background-color:#1F5676;
+    text-align: center;
+    margin: auto;
+}
+
+.texto_box_dos {
+    padding-top: 5px;
+    font-family: 'Basston Script', sans-serif;
+    font-size: 400%;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.box_tres {
+    width: 100%;
+    Background-color:#FD6704;
+    text-align: center;
+    margin: auto;
+}
+
+.texto_box_tres {
+    padding-top: 20px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 40px;
+    color: #1F5676;
+    padding-bottom: 5px;
+    transform: scale(1,2);
+}
+
+.menu-horizontal {
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 25px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.imagen_ubicacion {
+    width: 70%;
+    height: auto;
+    position: relative;
+}

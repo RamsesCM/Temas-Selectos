@@ -1,0 +1,22 @@
+
+table, th, td {
+    /* Hace que el borde sea visible*/
+    border: 1px solid white;
+
+    /* Hace que solo se vea un borde*/
+    border-collapse: collapse;
+}
+
+
+/* La tabla se vuelve redonda
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+*/
+
+/* Hace que no se vea todo amontonado */
+th, td {
+    padding: 10px;
+    background-color: #96D4D4;
+}

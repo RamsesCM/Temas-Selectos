@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Gowun+Batang&display=swap');
+
+body {
+    /*text-align: center;*/
+    background-color: #E6E6E6;
+}
+
+header {
+    text-align: center;
+}
+
+.mariscos_tomas_2 {
+    width: 600px;
+    height: auto;
+}
+
+.del_al_paladar {
+    padding-top: 2%;
+    width: 600px;
+    height: auto;
+}
+
+.banner {
+    width: 600px;
+    height: auto;
+    padding-bottom: 3%;
+}
+
+/*prueba*/
+
+.box_circular {
+    display: flex;
+    align-items: center;
+    width: 780px;
+    height: 240px;
+    margin: auto;
+    background-color: white;
+    border: 5px solid #1F5676;
+    border-radius: 200px;
+}
+
+.imagen_circular_1 {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+
+.texto_contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+p {
+    margin: 0%;
+}
+
+.titulo_comida {
+    font-family: Arizonia;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.texto_comida {
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.precio_comida {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FD6704;
+    font-size: 36px;
+}
+
+.imagen_circular_2 {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    padding-left: 35px;
+}
+
+.imagen_circular_4 {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    padding-left: 15px;
+}
+
+.imagen_circular_6 {
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+}

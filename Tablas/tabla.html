@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tabla.css">
+        <title>Tabla bonita</title>
+    </head>
+    <body>
+        <table>
+            <tr> <!-- tr representa una fila de la tabla -->
+                <th>Nombre</th>
+                <th>Edad</th> <!-- th representa el contenido de una de las columnas -->
+                <th>Telefono</th>
+            </tr>
+            <tr>
+                <td colspan="2">Radames Castro | 20</td> <!-- td representa el contenido de una de las filas -->
+                <td rowspan="3">686 186 XXXX</td>
+            </tr>
+            <tr>
+                <td>Jesus Castro</td>
+                <td>29</td>
+                <!--td>686 248 XXXX</td-->
+            </tr>
+            <tr>
+                <td>Hiram Castro</td>
+                <td>33</td>
+                <!--td>686 164 XXXX</td-->
+            </tr>
+        </table>
+    </body>
+
+    <!-- <caption> - Define un titulo a una tabla -->
+
+    <!-- 
+    <colgroup> - Se utiliza para darles formato a las columnas
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup> 
+    -->
+
+    <!-- <col>  especifica las propiedades de columna para 
+        cada columna dentro de un elemento <colgroup> . -->
+
+    <!-- El <thead> elemento se usa junto con los elementos 
+        <tbody> y <tfoot> para especificar cada parte de una 
+        tabla (encabezado, cuerpo, pie de página).
+        
+        thead {color:green;}
+        tbody {color:blue;}
+        tfoot {color:red;}
+     -->
+
+</html>
